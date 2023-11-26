@@ -1,0 +1,37 @@
+{
+  "name": "betterparent-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.15.1",
+    "@strapi/plugin-users-permissions": "4.15.1",
+    "@strapi/strapi": "4.15.1",
+    "esbuild": "^0.19.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "sqlite3": "^5.1.6",
+    "styled-components": "^5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "2f54e498-06d3-4c1a-90cd-d7f38807da58"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

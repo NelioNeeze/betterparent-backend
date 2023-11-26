@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "singularName": "message",
+    "pluralName": "messages",
+    "displayName": "Message",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "messageText": {
+      "type": "text"
+    },
+    "timestamp": {
+      "type": "datetime"
+    },
+    "sentByCoach": {
+      "type": "boolean"
+    }
+  }
+}
